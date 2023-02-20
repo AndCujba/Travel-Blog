@@ -1,0 +1,57 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.4)),url("../assets/ballons2.jpg");
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+.loginTitle {
+    font-size: 50px;
+}
+
+.loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.loginInput {
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+}
+
+.loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.registerButton {
+    position: absolute;
+    right: 20px;
+    top:60px;
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: rgb(36, 189, 168);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+}
